@@ -4,26 +4,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>跑馬燈範例</title>
 </head>
+<style>
+    code{
+        display: block;
+        border-color: yellow;
+        border-width: 5px;
+        background-color: black;
+        color: white;
+        border: yellow;
+        font-size: large;
+        padding: 5px;
+        border:2px;
+    }
+    span{
+        color: cyan;
+    }
+    i{
+        font-style: normal;
+        color:orange;
+    }
+</style>
 <body>
     <h1>基本跑馬燈</h1>
+    <code><span>&lt;marquee></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee>這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>進入跑馬燈</h1>
+    <code><span>&lt;marquee <i>behavior="slide"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee behavior="slide">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>反彈跑馬燈</h1>
+    <code><span>&lt;marquee <i>behavior="alternate"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee behavior="alternate">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>向左跑馬燈(預設)</h1>
+    <code><span>&lt;marquee <i>direction="left"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee direction="left">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>向右跑馬燈</h1>
+    <code><span>&lt;marquee <i>direction="right"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee direction="right">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>向上跑馬燈(高度編輯)</h1>
+    <code><span>&lt;marquee <i>direction="up" height="100px"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee direction="up" height="100px">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>向下跑馬燈(高度編輯)</h1>
+    <code><span>&lt;marquee <i>direction="down" height="100px"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee direction="down" height="100px">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>跑馬燈間距</h1>
+    <code><span>&lt;marquee <i>scrollamount="20"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee scrollamount="20">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>跑馬燈時距(限制)</h1>
+    <code><span>&lt;marquee <i>scrolldelay="1"</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee scrolldelay="1">這是一個跑跑跑跑跑跑跑馬燈</marquee>
     <h1>跑馬燈時距(突破限制)</h1>
+    <code><span>&lt;marquee <i>scrolldelay="1" truespeed</i>></span>這是一個跑跑跑跑跑跑跑馬燈<span>&lt;/marquee></span></code>
     <marquee scrolldelay="1" truespeed>這是一個跑跑跑跑跑跑跑馬燈</marquee>
 </body>
 </html>
